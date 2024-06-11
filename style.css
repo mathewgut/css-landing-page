@@ -9,10 +9,17 @@ body {
 }
 
 .hero {
-    display: flex;
     background-color: #1f2937;
     height: fit-content;
-    padding: 20px 250px;
+    padding: 20px 15%;
+    padding-bottom: 48px;
+    display: flex;
+    color: #f9faf8;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
 }
 .header{
     display: flex;
@@ -20,7 +27,7 @@ body {
     justify-content: space-between;
     color: #f9faf8;
     align-items: center;
-    padding: 20px 250px;
+    padding: 20px 15%;
 }
 
 .header-logo {
@@ -30,16 +37,7 @@ body {
 }
 .header .header-links {
     display: flex;
-    gap: 20px;  
-}
-
-.hero {
-    display: flex;
-    color: #f9faf8;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+    gap: 16px;  
 }
 
 .hero-text h1 {
@@ -53,9 +51,15 @@ body {
 }
 
 .hero .image {
+    display: flex;
     flex: auto;
-    border: 4px solid green;
+    border: 4px solid;
+    background-color: aliceblue;
     width: 1200px;
     height: 250px;
     margin-left: 48px;    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: grey;
 }
