@@ -12,13 +12,14 @@ body {
     background-color: #1f2937;
     height: fit-content;
     padding: 20px 15%;
-    padding-bottom: 48px;
+    padding-bottom: 84px;
     display: flex;
     color: #f9faf8;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    
     
 }
 .header{
@@ -79,10 +80,11 @@ body {
     display: flex;
     flex-direction: column;
     height: min-content;
+    margin-bottom: 84px;
 }
 
 .information h2 {
-    margin-top: 48px;;
+    margin-top: 48px;
     font-weight: 900;
     font-size: 36px;
     color: #1f2937;
@@ -133,6 +135,7 @@ body {
 }
 
 .quote p {
+    font-size: 18px;
     margin-top: -24px;
     align-self: flex-end;
     font-weight: bold;
