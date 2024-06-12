@@ -157,8 +157,10 @@ body {
     border-radius: 8px;
     padding: 30px 64px;
     width: 600px;
-    height: 50px;
+    height: 75px;
     flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
 .action-box h4 {
