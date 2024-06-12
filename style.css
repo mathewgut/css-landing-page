@@ -160,7 +160,6 @@ body {
     height: 75px;
     flex-wrap: wrap;
     justify-content: center;
-    
 }
 
 .action-box h4 {
@@ -190,4 +189,14 @@ body {
     color: #ffffff;
     font-weight: bold;
     padding: 4px 24px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    padding: 24px;
 }
