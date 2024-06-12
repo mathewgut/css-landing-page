@@ -75,35 +75,43 @@ body {
     
 }
 
-
 .information {
     display: flex;
     flex-direction: column;
+    height: min-content;
 }
 
 .information h2 {
     margin-top: 48px;;
     font-weight: 900;
+    font-size: 36px;
     color: #1f2937;
     text-align: center;
 }
 
 .boxes {
+    margin-top: -24px;
     display: flex;
     padding: 20px 15%;
     justify-content: center;
     flex-wrap: wrap;
 }
-.box-container{
+
+.box-container {
     display: flex;
     flex-direction: column;
-    
+    text-align: center;
+}
+
+.box-container p {
+    flex: auto;
 }
 
 .box {
-    margin: 8px;
+    margin: 24px;
+    margin-bottom: 0;
     border: 3px solid #3882f6;
     border-radius: 16px;
-    height: 150px;
-    width: 150px;
+    height: 175px;
+    width: 175px;
 }
