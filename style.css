@@ -125,7 +125,7 @@ body {
 .quote .text {
     display: flex;
     flex-direction: column;
-    padding: 20px 15%; 
+    padding: 20px 20%; 
 }
 .quote h3 {
     font-size: 36px;
@@ -139,4 +139,53 @@ body {
     margin-top: -24px;
     align-self: flex-end;
     font-weight: bold;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #3882f6;
+    color: white;
+    margin: 48px;
+    border-radius: 8px;
+    padding: 30px 64px;
+    width: 600px;
+    height: 50px;
+    flex-wrap: wrap;
+}
+
+.action-box h4 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.action-box p {
+    font-size: 14px;
+    margin-top: 4px;
+    margin-bottom: 0;
+}
+
+.button-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.button-section button {
+    background-color: #3882f6;
+    border: 2px solid #ffffff;
+    border-radius: 6px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 4px 24px;
 }
